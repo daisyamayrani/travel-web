@@ -1,3 +1,7 @@
+/***********
+make sure to add  "sass --watch main.scss:main.css" to the terminal to update
+*********/
+
 @import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 
 
@@ -191,19 +195,25 @@ background: linear-gradient(45deg, #f2dcbc 15%,#fcf2d6 44%,#febf04 94%); /* W3C,
         }
       }
     }
-    .copyright {
-      position: absolute;
-      bottom: 5px;
-      left:10px;
-      p {
-        text-align: center;
-        color: $lightGrey;
-      }
+
+  }
+  //have been editing the copyright section not added anything to the commit yet
+  .copyright {
+    position: absolute;
+    bottom: 5px;
+    left: auto !important;
+    right: auto !important;
+
+    p {
+      text-align: center;
+      color: $lightGrey;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
 
-  
+
 
 
 /************************************
